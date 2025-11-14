@@ -76,3 +76,29 @@ body::before {
   filter: blur(8px); /* Blur effect */
   z-index: -1;
 }
+
+@media screen and (max-width:420px){ 
+   .main-div{
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+   }
+
+     h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #joke-button {
+        width: 120px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    #joke-result {
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+}
